@@ -1,0 +1,3 @@
+[console_scripts]
+twopy_node = my_twopy_pkg.my_firsttwonode:main
+

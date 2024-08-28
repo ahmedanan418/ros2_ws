@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/extra/ros2_ws/build/my_robot_interfaces': /usr/bin/cmake /home/extra/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/extra/ros2_ws/install/my_robot_interfaces
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.184s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] Error parsing '/home/extra/ros2_ws/src/my_robot_interfaces/package.xml':
+[0.543s] Traceback (most recent call last):
+[0.543s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.545s]     root = dom.parseString(data)
+[0.545s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.545s]     return expatbuilder.parseString(string)
+[0.546s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.546s]     return builder.parseString(string)
+[0.546s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.546s]     parser.Parse(string, True)
+[0.546s] xml.parsers.expat.ExpatError: mismatched tag: line 25, column 2
+[0.547s] 
+[0.547s] During handling of the above exception, another exception occurred:
+[0.547s] 
+[0.547s] Traceback (most recent call last):
+[0.547s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.547s]     main()
+[0.547s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.547s]     raise e
+[0.547s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.548s]     package = parse_package_string(
+[0.548s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.548s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.548s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/extra/ros2_ws/src/my_robot_interfaces/package.xml':
+[0.548s] The manifest contains invalid XML:
+[0.548s] mismatched tag: line 25, column 2
+[0.566s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.566s]   execute_process(/usr/bin/python3
+[0.566s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.566s]   /home/extra/ros2_ws/src/my_robot_interfaces/package.xml
+[0.566s]   /home/extra/ros2_ws/build/my_robot_interfaces/ament_cmake_core/package.cmake)
+[0.566s]   returned error code 1
+[0.566s] Call Stack (most recent call first):
+[0.566s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.567s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.567s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.567s] 
+[0.567s] [0m
+[0.567s] -- Configuring incomplete, errors occurred!
+[0.567s] See also "/home/extra/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.574s] Invoked command in '/home/extra/ros2_ws/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/extra/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/extra/ros2_ws/install/my_robot_interfaces
