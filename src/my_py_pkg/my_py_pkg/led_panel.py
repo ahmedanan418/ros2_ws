@@ -11,7 +11,7 @@ class LedPanelNode(Node): #Change MyNode
         self.led_states = [0,0,0]
         self.led_state_publisher=self.create_publisher(LedStateArray,"led_state",10)
         self.timer= self.create_timer(4.0,self.publish_led_states)
-        self.get_logger().info("Led Panel Started!")
+        self.get_logger().info("Panel Started!")
 
 
 
