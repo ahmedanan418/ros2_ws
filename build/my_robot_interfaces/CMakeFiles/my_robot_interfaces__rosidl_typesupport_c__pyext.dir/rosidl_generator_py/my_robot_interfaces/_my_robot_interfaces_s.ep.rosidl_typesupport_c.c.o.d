@@ -206,4 +206,10 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator
  /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__type_support.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__struct.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_state_array__functions.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
+ /home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h

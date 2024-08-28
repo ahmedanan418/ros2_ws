@@ -10,9 +10,11 @@ find_package(ament_cmake REQUIRED)
 #####Add this everytime#####
 find_package(rosidl_default_generators REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
+rosidl_generate_interfaces(${PROJECT_NAME} #Add every .msg or .srv here
   "msg/HardwareStatus.msg"
-############################
+  "msg/LedStateArray.msg"
+  "srv/ComputeRectangleArea.srv"
+  ############################
 
 
 )

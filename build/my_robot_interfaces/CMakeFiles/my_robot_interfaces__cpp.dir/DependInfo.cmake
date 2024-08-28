@@ -15,6 +15,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__struct.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__traits.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__builder.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__traits.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/led_state_array.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
+  "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp" "/home/extra/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp"
   )
 
 
