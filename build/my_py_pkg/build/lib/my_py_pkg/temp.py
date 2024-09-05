@@ -5,7 +5,7 @@ from rclpy.node import Node
 #Write your code inside this class always
 class MyNode(Node): #Change MyNode 
     def __init__(self):
-        super().__init__("test") #change test as you want your node 
+        super().__init__("testt") #change test as you want your node 
     
 #This main function will always be the same 
 def main(args=None):
