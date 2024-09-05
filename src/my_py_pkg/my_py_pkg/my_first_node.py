@@ -7,7 +7,7 @@ class MyNode(Node): #Change MyNode
     def __init__(self):
         super().__init__("test") #change test as you want your node 
         self.counter_=0
-        self.get_logger().info("Hello ROS2!!?")
+        self.get_logger().info("Hello ROS2!!")
         self.create_timer(0.5,self.timer_callback)
 
 
