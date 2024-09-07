@@ -7,9 +7,11 @@
   <maintainer email="extra@todo.todo">extra</maintainer>
   <license>TODO: License declaration</license>
 
+  <!--Add dependencies here-->
   <depend>rclpy</depend>
   <depend>example_interfaces</depend>
   <depend>my_robot_interfaces</depend>
+  <!--.....................-->
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
