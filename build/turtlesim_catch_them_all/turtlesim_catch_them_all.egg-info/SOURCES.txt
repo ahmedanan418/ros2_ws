@@ -14,3 +14,4 @@ test/test_flake8.py
 test/test_pep257.py
 turtlesim_catch_them_all/__init__.py
 turtlesim_catch_them_all/turtle_controller.py
+turtlesim_catch_them_all/turtle_spawner.py
