@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME} #Add every .msg or .srv here
   "msg/TurtleArray.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLed.srv"
+  "srv/CatchTurtle.srv"
   ############################
 
 
