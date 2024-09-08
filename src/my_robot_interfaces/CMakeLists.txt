@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME} #Add every .msg or .srv here
   "msg/HardwareStatus.msg"
   "msg/LedStateArray.msg"
+  "msg/Turtle.msg"
+  "msg/TurtleArray.msg"
   "srv/ComputeRectangleArea.srv"
   "srv/SetLed.srv"
   ############################
@@ -23,5 +25,5 @@ rosidl_generate_interfaces(${PROJECT_NAME} #Add every .msg or .srv here
 
 #Add this line
 ament_export_dependencies(rosidl_default_runtime)
-
+##############
 ament_package()
