@@ -9,8 +9,11 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   
+  <!--Add here dependencies-->
   <exec_depend>my_py_pkg</exec_depend>
-
+  <exec_depend>turtlesim_catch_them_all</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+  <!--.....................-->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
